@@ -25,6 +25,12 @@ public class Card : MonoBehaviour {
 			back.SetActive(!value);
 		}
 	}
+	public virtual void OnMouseUpAsButton()
+    {
+        print(name);
+    }
+
+
 
 
 	// Use this for initialization

@@ -14,7 +14,7 @@ public class CardProspector : Card { //Make sure CardProspector extends Card
 
     [Header("Set Dynamically: CardProspector")]
     //This is how you use the enum CardState
-    
+
 	public eCardState state = eCardState.drawpile;
 
 	//Thie hiddenBy list stores which other cards will keep this one face down
@@ -25,6 +25,12 @@ public class CardProspector : Card { //Make sure CardProspector extends Card
 
 	//The SlotDef class stores information pulled in from the LayoutXML <slot>
 	public SlotDef slotDef;
+
+    public override void OnMouseUpAsButton()
+    {
+        Prospector.S.CardClicked(this);
+        base.OnMouseUpAsButton();
+    }
 
 
     // Start is called before the first frame update
