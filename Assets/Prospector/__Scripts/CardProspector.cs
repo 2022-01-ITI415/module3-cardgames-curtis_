@@ -4,44 +4,23 @@ using UnityEngine;
 
 public enum eCardState
 {
-	drawpile,
-	tableau,
-	target,
-	discard
+    drawpile,
+    tableau,
+    target,
+    discard
 }
 
-public class CardProspector : Card { //Make sure CardProspector extends Card
-
+public class CardProspector : Card
+{
     [Header("Set Dynamically: CardProspector")]
-    //This is how you use the enum CardState
-
-	public eCardState state = eCardState.drawpile;
-
-	//Thie hiddenBy list stores which other cards will keep this one face down
-	public List<CardProspector> hiddenBy = new List<CardProspector>();
-
-	//LayoutID matches this card to a Layout XML id if it's a tableau card
-	public int layoutID;
-
-	//The SlotDef class stores information pulled in from the LayoutXML <slot>
-	public SlotDef slotDef;
+    public eCardState state = eCardState.drawpile;
+    public List<CardProspector> hiddenBy = new List<CardProspector>();
+    public int layoutID;
+    public SlotDef slotDef;
 
     public override void OnMouseUpAsButton()
     {
         Prospector.S.CardClicked(this);
         base.OnMouseUpAsButton();
-    }
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
