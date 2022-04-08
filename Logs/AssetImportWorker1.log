@@ -15,11 +15,11 @@ C:/Users/tcurt/OneDrive/Documents/GitHub/module3-cardgames-curtis_
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-58026
+52191
 Successfully changed project path to: C:/Users/tcurt/OneDrive/Documents/GitHub/module3-cardgames-curtis_
 C:/Users/tcurt/OneDrive/Documents/GitHub/module3-cardgames-curtis_
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 619.13 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 87.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -35,92 +35,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.097361 seconds.
+Registered in 0.012328 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 197.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 81.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.247 seconds
+- Completed reload, in  3.629 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4249ms)
-		BeginReloadAssembly (415ms)
+	ReloadAssembly (3630ms)
+		BeginReloadAssembly (238ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (5ms)
-		EndReloadAssembly (3208ms)
-			LoadAssemblies (393ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (2945ms)
+			LoadAssemblies (226ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (934ms)
+			SetupTypeCache (594ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (172ms)
-			SetupLoadedEditorAssemblies (1463ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (1821ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (33ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (198ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (775ms)
-				ProcessInitializeOnLoadMethodAttributes (359ms)
+				RefreshPlugins (82ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (480ms)
+				ProcessInitializeOnLoadMethodAttributes (1202ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.029718 seconds.
+Registered in 0.013800 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  7.461 seconds
+- Completed reload, in  5.260 seconds
 Domain Reload Profiling:
-	ReloadAssembly (7464ms)
-		BeginReloadAssembly (1144ms)
+	ReloadAssembly (5262ms)
+		BeginReloadAssembly (512ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (27ms)
+			DisableScriptedObjects (15ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (119ms)
-		EndReloadAssembly (5890ms)
-			LoadAssemblies (554ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (1700ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (4526ms)
+			LoadAssemblies (381ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1052ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (219ms)
-			SetupLoadedEditorAssemblies (2882ms)
+			RebuildScriptCaches (442ms)
+			SetupLoadedEditorAssemblies (2031ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
-				SetLoadedEditorAssemblies (2ms)
+				InitializePlatformSupportModulesInManaged (61ms)
+				SetLoadedEditorAssemblies (8ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (516ms)
-				ProcessInitializeOnLoadAttributes (2264ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (52ms)
-				EditorAssembliesLoaded (1ms)
+				BeforeProcessingInitializeOnLoad (563ms)
+				ProcessInitializeOnLoadAttributes (1316ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (2ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (34ms)
+			AwakeInstancesAfterBackupRestoration (62ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.93 seconds
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.57 seconds
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1420 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 65.8 MB.
 System memory in use after: 65.8 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1857.
-Total: 17.269100 ms (FindLiveObjects: 0.346400 ms CreateObjectMapping: 0.151000 ms MarkObjects: 16.607800 ms  DeleteObjects: 0.159900 ms)
+Total: 7.877000 ms (FindLiveObjects: 0.439200 ms CreateObjectMapping: 0.183000 ms MarkObjects: 7.094300 ms  DeleteObjects: 0.156300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,232 +134,32 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Golf/New Folder 1
-  artifactKey: Guid(46fbccd3da73fed4faf1ad19c1ec60a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf/New Folder 1 using Guid(46fbccd3da73fed4faf1ad19c1ec60a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8699fd40475fecc814dee246f1107ac') in 0.165516 seconds 
-  Import took 0.243914 seconds .
+  path: Assets/Golf/_Prefabs 1/PrefabSprite.prefab
+  artifactKey: Guid(a7345cf02423c1d49b5848e25c0a27ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Golf/_Prefabs 1/PrefabSprite.prefab using Guid(a7345cf02423c1d49b5848e25c0a27ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f12fe565ab47adccf1ae98d1fbd509') in 0.363650 seconds 
+  Import took 0.406551 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001202 seconds.
-  path: Assets/Golf/New Folder 3
-  artifactKey: Guid(8eb7999dfb7f2e547827af35b427dfd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf/New Folder 3 using Guid(8eb7999dfb7f2e547827af35b427dfd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910f5d22dd8565f2550c5b82b7958a5a') in 0.152381 seconds 
-  Import took 0.216649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000545 seconds.
-  path: Assets/Golf/New Folder
-  artifactKey: Guid(6e85454a08d809c4392813fec2e94024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf/New Folder using Guid(6e85454a08d809c4392813fec2e94024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03398ae1d5856d4c9582188ef96163b') in 0.113337 seconds 
-  Import took 0.197981 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000485 seconds.
-  path: Assets/Golf/New Folder 2
-  artifactKey: Guid(b22a1e73873a36443a21be94ccb1eac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf/New Folder 2 using Guid(b22a1e73873a36443a21be94ccb1eac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b05f2041970ebe044d7530b7b998d6') in 0.137505 seconds 
-  Import took 0.212882 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 54.645885 seconds.
-  path: Assets/Golf/Resources
-  artifactKey: Guid(6e85454a08d809c4392813fec2e94024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf/Resources using Guid(6e85454a08d809c4392813fec2e94024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4878823a7ea206906b1a37f79a000c1') in 0.082819 seconds 
-  Import took 0.154730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 50.259968 seconds.
-  path: Assets/Golf/Resources/DeckXML 1.xml
+  Time since last request: 0.000535 seconds.
+  path: Assets/Golf/Resources/DeckXML2.xml
   artifactKey: Guid(77f5b891e1399154cb3de639edf0dad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf/Resources/DeckXML 1.xml using Guid(77f5b891e1399154cb3de639edf0dad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c263f805fe40f2978041d2b10efa10') in 9.456535 seconds 
-  Import took 9.486094 seconds .
+Start importing Assets/Golf/Resources/DeckXML2.xml using Guid(77f5b891e1399154cb3de639edf0dad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5460767970c572c8774370ccc3f46710') in 0.238314 seconds 
+  Import took 0.289459 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000401 seconds.
-  path: Assets/Golf/Resources/DeckXM2.xml
-  artifactKey: Guid(77f5b891e1399154cb3de639edf0dad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf/Resources/DeckXM2.xml using Guid(77f5b891e1399154cb3de639edf0dad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e636b25076d5440bbb52e749e7f53f') in 0.089509 seconds 
-  Import took 0.188590 seconds .
+  Time since last request: 0.000626 seconds.
+  path: Assets/Golf/_Prefabs 1/PrefabCard.prefab
+  artifactKey: Guid(06f8867b102d9254c9deada2f9fa8981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Golf/_Prefabs 1/PrefabCard.prefab using Guid(06f8867b102d9254c9deada2f9fa8981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54dff3b7bb435fbdfcfe47197dda9b6f') in 0.779132 seconds 
+  Import took 0.799640 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.836582 seconds.
-  path: Assets/Prospector/_Sprites 1/Card_Back.png
-  artifactKey: Guid(a864b498e79ef184482dad7bd319c664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prospector/_Sprites 1/Card_Back.png using Guid(a864b498e79ef184482dad7bd319c664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77fef64204ebd9f690db7ad4ba31ea19') in 11.755113 seconds 
-  Import took 11.760418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000446 seconds.
-  path: Assets/Golf/_Sprites/_Sprites 1/FaceCard_12D.png
-  artifactKey: Guid(b524e11a3b80307439fbbe1296ea5144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf/_Sprites/_Sprites 1/FaceCard_12D.png using Guid(b524e11a3b80307439fbbe1296ea5144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3db0a0be72f508f14433beaede4345') in 0.191750 seconds 
-  Import took 0.249719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000442 seconds.
-  path: Assets/Golf/_Sprites/_Sprites 1/Diamond.png
-  artifactKey: Guid(b113fb9f50633bc4183477cbc984329d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf/_Sprites/_Sprites 1/Diamond.png using Guid(b113fb9f50633bc4183477cbc984329d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee5ce882e3cbe1f9f1a8c31ea212f17') in 0.129844 seconds 
-  Import took 0.186060 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000437 seconds.
-  path: Assets/Golf/_Sprites/_Sprites 1/FaceCard_11D.png
-  artifactKey: Guid(a535a72ec98084740835dad6b5e19723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf/_Sprites/_Sprites 1/FaceCard_11D.png using Guid(a535a72ec98084740835dad6b5e19723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5dc1d3e6528809daeeed24eef032ee') in 0.157869 seconds 
-  Import took 0.193173 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000586 seconds.
-  path: Assets/Golf/_Sprites/_Sprites 1/FaceCard_12C.png
-  artifactKey: Guid(7c90747fce0eade4480a088153e698a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf/_Sprites/_Sprites 1/FaceCard_12C.png using Guid(7c90747fce0eade4480a088153e698a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3876492eee425871e46a28af18875b0') in 0.109750 seconds 
-  Import took 0.146216 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000647 seconds.
-  path: Assets/Golf/_Sprites/_Sprites 1/Heart.png
-  artifactKey: Guid(6f2ed924d3111d84bac1a766b2b9d12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf/_Sprites/_Sprites 1/Heart.png using Guid(6f2ed924d3111d84bac1a766b2b9d12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db26c38ae5ba0b1e35f9ad050c43eaf') in 0.101172 seconds 
-  Import took 0.127242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000402 seconds.
-  path: Assets/Golf/_Sprites/_Sprites 1/FaceCard_13C.png
-  artifactKey: Guid(909354217f42f3d4ba3a56d5a4c67988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf/_Sprites/_Sprites 1/FaceCard_13C.png using Guid(909354217f42f3d4ba3a56d5a4c67988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df756be953183eab52d4f4e41b50bf6') in 0.151355 seconds 
-  Import took 0.171210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000553 seconds.
-  path: Assets/Golf/_Sprites/_Sprites 1/Letters.png
-  artifactKey: Guid(c5dd109ae92bc924391ea76c67d7a3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf/_Sprites/_Sprites 1/Letters.png using Guid(c5dd109ae92bc924391ea76c67d7a3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a1d7e5f861f3ad809cd63699d99dbb') in 0.300855 seconds 
-  Import took 0.318023 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000677 seconds.
-  path: Assets/Golf/_Sprites/_Sprites 1/Card_Front_Gold.png
-  artifactKey: Guid(803562d8de43d974b9042467b537089c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf/_Sprites/_Sprites 1/Card_Front_Gold.png using Guid(803562d8de43d974b9042467b537089c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e827811b654b73f4b1f0d585e905ca09') in 0.193769 seconds 
-  Import took 0.234819 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000912 seconds.
-  path: Assets/Golf/_Sprites/_Sprites 1/FaceCard_13D.png
-  artifactKey: Guid(c1b5c41bfb3554648a41e6c0e1d20bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf/_Sprites/_Sprites 1/FaceCard_13D.png using Guid(c1b5c41bfb3554648a41e6c0e1d20bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5acf75450d38ddf9a0e7ea220ca7e2a6') in 0.145663 seconds 
-  Import took 0.151615 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000715 seconds.
-  path: Assets/Golf/_Sprites/_Sprites 1/FaceCard_13S.png
-  artifactKey: Guid(de076046b59463943a96da63e7e50929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf/_Sprites/_Sprites 1/FaceCard_13S.png using Guid(de076046b59463943a96da63e7e50929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97c97abfbc07d2f39f5f836d5847005') in 5.598927 seconds 
-  Import took 6.231643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.124756 seconds.
-  path: Assets/Golf/_Sprites/_Sprites 1/Card_Back.png
-  artifactKey: Guid(a864b498e79ef184482dad7bd319c664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf/_Sprites/_Sprites 1/Card_Back.png using Guid(a864b498e79ef184482dad7bd319c664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77fef64204ebd9f690db7ad4ba31ea19') in 0.989515 seconds 
-  Import took 3.915079 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001563 seconds.
-  path: Assets/Golf/_Sprites 1/Card_Back_Gold.png
-  artifactKey: Guid(c88aa4e14184dd8458cc206b5c7e4f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf/_Sprites 1/Card_Back_Gold.png using Guid(c88aa4e14184dd8458cc206b5c7e4f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e9295e55f56a9dc9ec16085ccb63136') in 0.091968 seconds 
-  Import took 0.183247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000595 seconds.
-  path: Assets/Golf/_Sprites 1/Card_Front.png
-  artifactKey: Guid(03b16d274f05e83439238568e59bf621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf/_Sprites 1/Card_Front.png using Guid(03b16d274f05e83439238568e59bf621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caaa04c55a9645777ea9985acd0d3cf8') in 0.053835 seconds 
-  Import took 0.060896 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000440 seconds.
-  path: Assets/Golf/_Sprites 1/FaceCard_11H.png
-  artifactKey: Guid(aa5153fa7121aff4fb8ccc0849cba2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf/_Sprites 1/FaceCard_11H.png using Guid(aa5153fa7121aff4fb8ccc0849cba2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f636c7d49243ee3e099e53c632975d') in 0.305823 seconds 
-  Import took 0.349934 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000443 seconds.
-  path: Assets/Golf/_Sprites 1/Club.png
-  artifactKey: Guid(dd6032a14647c8d46a0a8569d084224f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf/_Sprites 1/Club.png using Guid(dd6032a14647c8d46a0a8569d084224f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158600b825167a84fbde1b353c2deaea') in 0.126386 seconds 
-  Import took 0.167955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000441 seconds.
-  path: Assets/Golf/_Sprites 1/FaceCard_13H.png
-  artifactKey: Guid(ad7db6368fe34494bbc2940393ca6fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf/_Sprites 1/FaceCard_13H.png using Guid(ad7db6368fe34494bbc2940393ca6fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbfb0ee0983ff22f746cf62a5c5dd72a') in 0.133269 seconds 
-  Import took 0.168198 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000440 seconds.
-  path: Assets/Golf/_Sprites 1/FaceCard_12S.png
-  artifactKey: Guid(47393e57f3055374aa0b5c03c37a7668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf/_Sprites 1/FaceCard_12S.png using Guid(47393e57f3055374aa0b5c03c37a7668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400c9946e27aa8a9ed79a920a32abd3e') in 0.053830 seconds 
-  Import took 0.160395 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001254 seconds.
-  path: Assets/Golf/_Sprites 1/FaceCard_11S.png
-  artifactKey: Guid(41d7a540ef59911499a9501e29a5f415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf/_Sprites 1/FaceCard_11S.png using Guid(41d7a540ef59911499a9501e29a5f415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f55c5236e6b9347db4ab6057ce61c4') in 0.153215 seconds 
-  Import took 0.176569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001288 seconds.
-  path: Assets/Golf/_Sprites 1/FaceCard_12H.png
-  artifactKey: Guid(7b0ac9e9aed96104fa643d8779c00005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf/_Sprites 1/FaceCard_12H.png using Guid(7b0ac9e9aed96104fa643d8779c00005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4202baacbf8869717272af2a287bbe7b') in 0.131098 seconds 
-  Import took 0.153342 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000728 seconds.
-  path: Assets/Golf/_Sprites 1/FaceCard_11C.png
-  artifactKey: Guid(12cd841c784ef6c409b51287f94204c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf/_Sprites 1/FaceCard_11C.png using Guid(12cd841c784ef6c409b51287f94204c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d648a947443bc327858dbea013b4ed') in 0.146621 seconds 
-  Import took 0.204912 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000471 seconds.
-  path: Assets/Golf/_Sprites 1/Spade.png
-  artifactKey: Guid(3206743f2ae44fb468d7d163bdf03ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Golf/_Sprites 1/Spade.png using Guid(3206743f2ae44fb468d7d163bdf03ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef748a2608dada0c288fed0dfab7319d') in 0.256936 seconds 
-  Import took 0.262274 seconds .
+  Time since last request: 0.000804 seconds.
+  path: Assets/Golf/_Prefabs 1/PrefabFloatingScore.prefab
+  artifactKey: Guid(4712512f6790014418f38b841da03d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Golf/_Prefabs 1/PrefabFloatingScore.prefab using Guid(4712512f6790014418f38b841da03d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40998a26554862f128b3561485e5545f') in 0.131180 seconds 
+  Import took 0.168840 seconds .
 
